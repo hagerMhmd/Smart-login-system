@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- custom css style file -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- ========= Singup page start ========== -->
+    <div id="signUpPage" class="signUpPage container d-block">
+        <div class="login-container vh-100">
+            <div class="login-form w-75 d-flex shadow flex-column align-items-center mx-auto mt-5">
+                <h1 class="text-center mt-5 mb-2">Smart Login System</h1>
+                <input type="text" name="UserName" id="signUpNameInput" class="mx-auto form-control bg-transparent my-3"
+                    placeholder="Enter your Name" />
+
+                <input type="email" name="userEmail" id="singUpEmailInput" class="mx-auto form-control bg-transparent"
+                    placeholder="Enter your email" />
+
+                <input type="password" name="Userpass" id="singUpPasswordInput"
+                    class="mx-auto form-control bg-transparent my-3" placeholder="Enter your password" />
+
+                <!-- required or Success or exists or empty massage -->
+                <div class="massage"></div>
+                <button id="signupBtn" class="btn btn-outline-info my-2">
+                    Sign Up
+                </button>
+                <p>
+                    You have an account?
+                    <a href="./logIn.html" class="signInAnchor text-decoration-none">Sign In</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- ========= Singup page start ========== -->
+
+    <!-- bootstarp JS link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js link -->
+    <script src="js/signUp.js"></script>
+</body>
+
+</html>

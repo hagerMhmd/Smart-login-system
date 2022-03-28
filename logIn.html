@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom css style file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== login page start ========= -->
+    <div class="logInPage container d-block">
+        <div class="login-container vh-100 ">
+            <div class="w-75 d-flex shadow flex-column align-items-center mx-auto mt-5">
+                <h1 class="text-center mt-5 mb-3">Smart Login System</h1>
+                <input type="email" name="UserName" id="logInEmailInput" class="mx-auto form-control bg-transparent"
+                    placeholder="Enter your email">
+                <input type="password" name="Userpass" id="logInPasswordInput"
+                    class="mx-auto form-control bg-transparent my-3" placeholder="Enter your password">
+                <!-- empty or incorrect massage -->
+                <div id="logInMassages"></div>
+                <a id="loginBtn" class="btn btn-outline-info my-2 text-decoration-none">Login</a>
+                <p>Don’t have an account? <a href="signup.html"
+                        class="logInAnchor text-decoration-none">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- =========== login page end ========== -->
+
+
+    <!-- bootstarp JS link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js link -->
+    <script src="js/login.js"></script>
+</body>
+
+</html>
